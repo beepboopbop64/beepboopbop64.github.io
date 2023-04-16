@@ -1,0 +1,22 @@
+---
+title: "AboutMe"
+output: html_document
+---
+
+
+Hi, I'm Jake Rastberger, a Data Engineer located in the DFW area with 4 years of experience in analytics. I am passionate about data science and enjoy working on challenging projects that push me to learn and grow as a professional.
+
+## Skills
+* Python
+* Alteryx
+  + Designer Advanced Certification
+* Tableau
+  + Tableau Data Scientist
+  + Tableau Designer
+
+## Projects
+### SMU Doing Data Science Beer Project
+During my masters degree at SMU I had the opportunity to work on a project around cleaning, visualizing, and classifying beer based on ABV and IBU. 
+
+## Contact
+Feel free to reach out to me via email at jake.rastberger@gmail.com or connect with me on Linkedin. I'm always open to new opportunities and collaborations.
