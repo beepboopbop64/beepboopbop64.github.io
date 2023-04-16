@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to Jekyll!
+title: https://beepboopbop64.github.io/dds_project_2.html
 subtitle: A awesome static site generator.
 author: Jeffrey
 categories: jekyll
