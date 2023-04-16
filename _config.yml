@@ -152,10 +152,10 @@ header_pages:
 #   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
+ defaults:
+   home:
+     heading: "Data Science Projects"
+     subheading: "Jake Rastberger"
 #     banner: "Your image url"
 
 # Banner default settings
