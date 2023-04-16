@@ -156,7 +156,7 @@ header_pages:
    home:
      heading: "Data Science Projects"
      subheading: "Jake Rastberger"
-#     banner: "Your image url"
+     banner: "Your image url"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
