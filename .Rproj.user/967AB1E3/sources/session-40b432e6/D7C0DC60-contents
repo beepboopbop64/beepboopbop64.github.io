@@ -1,0 +1,58 @@
+---
+title: "Clustering"
+author: "Jake"
+date: "3/19/2023"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo = FALSE}
+ui <- fluidPage(
+  
+  # App title ----
+  titlePanel("K means clustering"),
+  
+  # Sidebar layout with input and output definitions ----
+  sidebarLayout(
+    
+    # Sidebar panel for inputs ----
+    sidebarPanel(
+      
+      #Input: Slider for the number of bins ----
+      sliderInput(inputId = "clusters",
+                  label = "Number of clusters:",
+                  min = 1,
+                  max = 5,
+                  value = 3)
+    ),
+    
+    mainPanel(
+      
+      # Output:
+      plotOutput(outputId = "cluster")
+    )
+  )
+)
+
+# Define server logic required to draw a histogram ----
+server <- function(input, output) {
+
+  output$cluster <- renderPlot({
+    k <- input$clusters
+    
+    # Perform K-means clustering on the iris dataset based on user input value
+    # of K
+    kmeans_result <- kmeans(iris[, 1:4], centers = input$clusters)
+    
+    plot(iris[, 1:2], col = kmeans_result$cluster, 
+         main = "K-means Clustering of Iris Dataset")
+    points(kmeans_result$centers[, 1:2], col = 1:k, pch = 8, cex = 2)
+  })
+}
+shinyApp(ui, server)
+```
+

@@ -1,0 +1,38 @@
+---
+title: "Shiney"
+author: "Jake"
+date: "2023-03-28"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(shiny)
+```
+
+```{r}
+ui <- fluidPage(
+  selectInput("dataset", label = "dataset", choices= ls(package:datasets)),
+  verbatimTextOutput("summary"),
+  tableOutput("table")
+  
+)
+
+server <- function(input, output, session) {
+  # Create a reactive expression
+  dataset <- reactive({
+    get(input$dataset, "package:datasets")
+  })
+  
+  output$summary <- renderPrint({
+    summary(dataset())
+  })
+  
+  output$table <- renderTable({
+    dataset()
+  })
+}
+
+shinyApp(ui, server)
+```
