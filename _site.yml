@@ -6,3 +6,5 @@ navbar:
       href: index.html
     - text: "Craft Beer Case Study"
       href: project_one.html
+    - text: "Frito Lay Employee Case Study"
+      href: dds_project_2.html
