@@ -5,7 +5,7 @@ subtitle: Testing things out.
 author: Jake
 categories: Test
 banner:
-  video: https://www.youtube.com/embed/0xRlOSQ08jM
+  video: ![](//https://www.youtube.com/watch?v=0xRlOSQ08jM)
   loop: true
   volume: 0.8
   start_at: 8.5
