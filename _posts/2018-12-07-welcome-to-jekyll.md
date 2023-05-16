@@ -5,7 +5,7 @@ subtitle: Testing things out.
 author: Jake
 categories: Test
 banner:
-  video: ![](//https://www.youtube.com/watch?v=0xRlOSQ08jM)
+#  video: 
   loop: true
   volume: 0.8
   start_at: 8.5
@@ -21,6 +21,8 @@ sidebar: []
 ---
 
 Just seeing what will happen if I start to edit some stuff
+
+![](//https://www.youtube.com/watch?v=0xRlOSQ08jM)
 
 ## Ruby
 
