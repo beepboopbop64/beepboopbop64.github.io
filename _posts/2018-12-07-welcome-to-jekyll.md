@@ -22,7 +22,7 @@ sidebar: []
 
 Just seeing what will happen if I start to edit some stuff
 
-![](//https://www.youtube.com/watch?v=0xRlOSQ08jM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0xRlOSQ08jM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Ruby
 
