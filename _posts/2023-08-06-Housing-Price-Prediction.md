@@ -8,4 +8,4 @@ tags: Regression
 sidebar: []
 ---
 
-<object data="../assets/pdfs/MSDS 6371 Project.pdf" type='application/pdf'></object>
+<object data="../assets/pdfs/MSDS 6371 Project.pdf" width="1000" height="1000" type='application/pdf'></object>
