@@ -16,7 +16,7 @@ tags: Stats Permutation
 sidebar: []
 ---
 
-# Unlocking the Secrets of Permutation Tests with Python
+## Unlocking the Secrets of Permutation Tests with Python
 
 ## Introduction: Navigating the Landscape of Statistical Inference
 
@@ -34,12 +34,12 @@ As we embark on this exploration, our goal is twofold: to deepen our understandi
 
 ## What is a Permutation Test?
 
-Let's embark on a thought experiment. You’re in a cafe, sipping your morning beverage, observing the world around you. On one side, there's a group savoring coffee; on the other, tea enthusiasts are enjoying their brew. A question strikes you: Does the choice between coffee and tea affect how quickly people can respond to a sudden event? You stand up and scream "HELP!!!" and with the help of a trusty high speed camera you of course have laying around time how long it takes everyone to react.
+Let's embark on a thought experiment. You’re in a cafe, sipping your morning beverage, observing the world around you. On one side, there's a group savoring coffee; on the other, tea enthusiasts are enjoying their brew. A question strikes you: Does the choice between coffee and tea affect how quickly people can respond to a sudden event? You stand up and scream "HELP!!!" and with the aid of a trusty high speed camera you of course have laying around you time how long it takes everyone to react.
 
 Here's where the permutation test steps into the spotlight. It's a statistical method that doesn't just leap to conclusions; it probes deeper, testing our observed reality against the realm of chance. Imagine taking the labels 'coffee drinker' and 'tea drinker' and shuffling them like a deck of cards, redistributing them randomly to the reaction times recorded. Now, if the average reaction times between these randomly assigned groups consistently show differences as extreme (or more so) than the original groups, you’d start to question if the original observation was just a fluke.
 
 ### The Fun Part: Practical Application with Python
-To bring this concept out of the cafe and into the realm of data science, we turn to Python. It's like our digital laboratory where we can test our hypotheses with the precision of code.
+To bring this concept out of the imaginary cafe and into the realm of data science, we turn to Python. It's like our digital laboratory where we can test our hypotheses with the precision of code.
 
 Let's roll up our sleeves and get coding:
 
@@ -56,10 +56,10 @@ After the code walkthrough, we’ll ask you to ponder variations: what if we cha
 A Narrative of Numbers
 Our journey through the permutation test is more than a trek through numbers; it's a narrative that starts with a real-world question and leads us through the valleys and peaks of data analysis. By the end of our post, the permutation test won't just be a statistical term—it'll be a story of exploration, where you discovered not just the power of Python, but the excitement of unearthing truths hidden in your data.
 
-# Dataset Introduction: The Morning Brew Challenge
+## Dataset Introduction: The Morning Brew Challenge
 In our exploration, we introduce two groups: Team Coffee and Team Tea. Each team's members start their day with their drink of choice and today their reaction time will be put to the test. Can the choice of drink lead to a statistically significant difference in how quickly they can react to the unexpected?
 
-## Creating simulated data
+### Creating simulated data
 In the vast universe of data analysis, sometimes the best way to understand complex concepts is by constructing our own universes—simulated data where we control the laws of mathematics and chance. Let's walk through the Python code that allows us to simulate such a universe, specifically for our coffee and tea drinkers' reaction times. First I will post the full code and then I will walk you through it chunck by chunk.
 
 ```python
@@ -154,7 +154,7 @@ plt.legend()
 plt.show()
 ```
 
-### Laying the Foundation
+#### Laying the Foundation
 Our first step is to import the libraries that are the building blocks of our simulation:
 
 ```python
