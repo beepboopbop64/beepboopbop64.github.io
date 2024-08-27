@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Permutation Test
-subtitle: Intoduction to permutation tests
+title: Introduction to ANOVA
+subtitle: Intoduction to ANOVA
 author: Jake
 categories: Stats
 banner:
@@ -12,7 +12,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: Stats Permutation
+tags: Stats ANOVA
 sidebar: []
 ---
 
